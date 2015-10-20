@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385670D11BC80AC6008049F8 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 385670D01BC80AC6008049F8 /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 		387710F51BBEC10B0004443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387710F41BBEC10B0004443E /* AppDelegate.swift */; };
 		387710F71BBEC10B0004443E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387710F61BBEC10B0004443E /* ViewController.swift */; };
 		387710FA1BBEC10C0004443E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387710F81BBEC10C0004443E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		385670D01BC80AC6008049F8 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		387710F11BBEC10B0004443E /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387710F41BBEC10B0004443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387710F61BBEC10B0004443E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		387710F31BBEC10B0004443E /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				385670D01BC80AC6008049F8 /* btn.wav */,
 				387710F41BBEC10B0004443E /* AppDelegate.swift */,
 				387710F61BBEC10B0004443E /* ViewController.swift */,
 				387710F81BBEC10C0004443E /* Main.storyboard */,
@@ -124,6 +127,7 @@
 				387710FF1BBEC10C0004443E /* LaunchScreen.storyboard in Resources */,
 				387710FC1BBEC10C0004443E /* Assets.xcassets in Resources */,
 				387710FA1BBEC10C0004443E /* Main.storyboard in Resources */,
+				385670D11BC80AC6008049F8 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 				387711051BBEC10C0004443E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
